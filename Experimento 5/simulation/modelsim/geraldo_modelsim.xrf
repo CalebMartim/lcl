@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, /home/caleb/UnB/laboratorio de circuitos logicos/Experimento 5/geraldo.v
+source_file = 1, /home/caleb/UnB/laboratorio de circuitos logicos/Experimento 5/db/geraldo.cbx.xml
+design_name = geraldo
+instance = comp, \Cin~I\, Cin, geraldo, 1
+instance = comp, \B~I\, B, geraldo, 1
+instance = comp, \A~I\, A, geraldo, 1
+instance = comp, \Add1~0\, Add1~0, geraldo, 1
+instance = comp, \Add1~1\, Add1~1, geraldo, 1
+instance = comp, \S~I\, S, geraldo, 1
+instance = comp, \Cout~I\, Cout, geraldo, 1
