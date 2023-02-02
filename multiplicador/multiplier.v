@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 module multiplier(product,inp1,inp2);
 
-  output [6:0]product;
+  output [7:0]product;
   input [3:0]inp1;
   input [3:0]inp2;
   
@@ -22,7 +22,7 @@ module multiplier(product,inp1,inp2);
   HA HA4(product[3],x12,x14,(inp1[3]&inp2[0]));
   FA FA8(product[4],x11,x13,(inp1[3]&inp2[1]),x12);
   FA FA7(product[5],x10,x9,(inp1[3]&inp2[2]),x11);
-  //FA FA6(product[6],product[7],x8,(inp1[3]&inp2[3]),x10);
+  FA FA6(product[6],product[7],x8,(inp1[3]&inp2[3]),x10);
   
 endmodule
 
