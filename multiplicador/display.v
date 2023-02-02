@@ -3,8 +3,8 @@ module bcd7segmentBehavioral(
             seg,
 			seg2
             );
-    input [6:0] bcd;    //initializing bcd as an 4 bit input signal
-    output[6:0] seg;    //initializing seg as an 8 bit output signal
+	input [7:0] bcd;    //initializing bcd as an 4 bit input signal
+  	output[6:0] seg;    //initializing seg as an 8 bit output signal
 	output [6:0] seg2;
     reg [6:0] seg;      //initializing bcd signal as registers
     reg [6:0] seg2;      //initializing bcd signal as registers
